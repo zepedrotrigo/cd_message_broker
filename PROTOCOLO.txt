@@ -1,0 +1,6 @@
+{"method": "subscribe", "topic": topic} -> mensagem de subscricao a um topico
+{"method": "topics"} -> mensagem para listar tópicos
+{"method": "cancel", "topic": topic} -> mensagem para cancelar subscricao
+{"method" : "publish", "topic" : topic, "value" : value} -> publicar topico
+{"method" : "serialization", "value" : value} -> enviar tipo de serializacao
+{"method" : "reply", "topic" : topic, "value" : value} -> resposta que o broker envia ao consumer
